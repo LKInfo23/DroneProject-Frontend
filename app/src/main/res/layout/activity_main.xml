@@ -19,6 +19,7 @@
         app:itemTextColor="@color/text"
         app:itemIconTint="@drawable/bottom_navigation_selector"
         />
+
     <fragment
         android:id="@+id/nav_host_fragment_activity_main"
         android:name="androidx.navigation.fragment.NavHostFragment"

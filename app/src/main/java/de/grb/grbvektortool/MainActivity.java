@@ -1,6 +1,9 @@
 package de.grb.grbvektortool;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -32,6 +35,10 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_activity_main);
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(binding.navView, navController);
+    }
+
+    public void openGitHubLink(View view) {
+        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/LKInfo23/DroneProject")));
     }
 
 }

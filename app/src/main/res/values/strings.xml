@@ -1,6 +1,14 @@
 <resources>
     <string name="app_name" translatable="false">Vectrix (GRB Vektor Tool)</string>
+    <string name="app_version" translatable="false">Version 0.0.1</string>
     <string name="title_home" translatable="false">Home</string>
     <string name="title_dashboard" translatable="false">Verwaltung</string>
     <string name="title_notifications" translatable="false">About</string>
+    <string name="about_icon" translatable="false">GRB-Logo</string>
+    <string name="about_app_label" translatable="false">GRB Vektortool für Drohnen</string>
+    <string name="about_gh_button" translatable="false"><a href="https://github.com/LKInfo23/DroneProject">GitHub</a></string>
+    <string name="manage_sign_in_label">Sign in</string>
+    <string name="manage_login_label">Login</string>
+    <string name="manage_password_label">Password</string>
+    <string name="manage_username_label">Username</string>
 </resources>
