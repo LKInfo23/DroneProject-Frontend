@@ -2,6 +2,8 @@
     <string name="app_name" translatable="false">Vectrix (GRB Vektor Tool)</string>
     <string name="app_version" translatable="false">Version 0.0.1</string>
     <string name="title_home" translatable="false">Home</string>
+    <string name="home_room_code_hint" translatable="false">Code</string>
+    <string name="home_room_code_label" translatable="false">Join a Room!</string>
     <string name="title_dashboard" translatable="false">Verwaltung</string>
     <string name="title_notifications" translatable="false">About</string>
     <string name="about_icon" translatable="false">GRB-Logo</string>
