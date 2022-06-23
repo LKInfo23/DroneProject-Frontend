@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
                     // SERVER SHIT
                     CharSequence text = "Trying to connect to room #" + s;
                     Toast.makeText(getApplicationContext(), text, Toast.LENGTH_SHORT).show();
+                    switchActivities();
                 }
             }
 
@@ -62,6 +63,10 @@ public class MainActivity extends AppCompatActivity {
             }
         };
         roomCode.addTextChangedListener(tw);
+    }
+    private void switchActivities() {
+        Intent switchActivity = new Intent(this,RoomActivity.class);
+        startActivity(switchActivity);
     }
 
 
